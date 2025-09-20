@@ -1,0 +1,32 @@
+SWEN-250 Activity Reflection
+
+Name: Derek Domutz-Volpe
+
+================================================================
+Part 2 (Part 1 not required)
+Estimated Time    HH 40
+Plan:
+First, copy the original prime.c into a new file prime_standard.c. 
+Update variable names, function names, and constants to follow the coding 
+standards (lowercase variables, descriptive names, #define for constants). 
+Add purpose-based comments for functions and loops. 
+Incrementally test the program after each set of changes to ensure that it 
+still compiles and produces correct results. 
+Update the Makefile so it builds prime_standard.c instead of prime.c. 
+Finally, fix the logic so that "2 is a prime" prints in the correct order 
+without duplication.
+
+Complete
+Actual Time    HH 75
+Observations:
+I initially left a hardcoded value (UpperBound = 50) in the code, which 
+prevented the program from respecting user input. Fixing that was one of 
+the first debugging steps. When rewriting, I learned the importance of 
+consistent naming conventions for readability and maintainability. 
+Another obstacle was handling the printing of "2 is a prime." My first 
+solution caused 2 to print at the end, and later I accidentally had it 
+print twice. I corrected this by printing 2 before the main loop and 
+removing the duplicate. Through this exercise I learned how following 
+standards helps avoid confusion, and I also gained practice in debugging 
+logic errors introduced by restructuring code.
+================================================================
